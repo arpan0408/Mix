@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enquire Form</title>
+    <style>
+        * {
+            margin: 20px;
+        }
+
+        #top {
+            display: flex;
+            height: 7em;
+        }
+
+        #top_h {
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 50px;
+            margin-left: 600px;
+        }
+
+        #top_h2 {
+            font-size: 1.5em;
+        }
+
+        #top_h2 span {
+            font-size: .8rem;
+            color: rgb(109, 109, 109);
+        }
+
+        .date {
+            float: right;
+            margin-top: -40px;
+        }
+
+        .date hr {
+            width: 180px;
+            margin-top: -7px;
+            margin-left: 60px;
+        }
+
+        hr {
+            width: 76em;
+        }
+
+        ol li hr {
+            width: 64rem;
+            margin-left: 130px;
+            margin-top: -5px;
+        }
+
+        .add hr{
+            width:60rem;
+            margin-left: 200px;
+        }
+
+        ol hr{width: 72.5rem;}
+
+        #li_hr{
+            margin-top: 30px;
+            margin-left: -1px;
+            width: 72.5rem;
+        }
+
+        ol li .li_hr4{
+            width: 25rem;
+            margin-left: 150px;
+            margin-right: -0.1px;
+        }
+        
+        ol li span{
+            float: right;
+            margin-top: -35px;
+            margin-right: -22px;
+        }
+
+        ol li .li_hr5{
+            width: 62rem;
+            margin-left: 170px;
+        }
+
+        .li_hr6{
+            width:57rem;
+            margin-left:250px;
+        }
+
+        ol table{
+            width: 73em;
+            height: 10rem;
+            text-align: center;
+        }
+
+        ol li #end{
+            margin-right: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <img src="../source_files/GEU-logo.png" alt="Geu-logo" id="top_logo">
+        <h3 id="top_h"> CELEBRATING 25 YEARS </h3>
+    </div>
+
+    <h4 id="top_h2">ENQUIRY FORM <span>USE CAPITAL LETTERS ONLY </span> </h4>
+
+    <h3 class="date">Date :
+        <hr>
+    </h3>
+    <hr>
+
+    <ol>
+        <li>Candidate's Name :
+            <hr>
+        </li>
+        <li>Father's Name :
+            <hr>
+        </li>
+        <li>Gender : <label for="">Male</label> <input type="radio" name="gender" id="">
+            <label for="">Female</label>
+            <input type="radio" name="gender" id="">
+        </li>
+        <li class="add">Address for Correspondence : <hr><hr id="li_hr">
+            Father's Phone No. <hr class="li_hr4"> <span>Candidate's Phone No. <hr class="li_hr4"></span>
+        </li>
+        <li>Students email Address : <hr class="li_hr5"></li>
+        <li>Father's/Guardian's E-mail Address : <hr class="li_hr6"></li>
+        <li>Educational Qualification :</li>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>Class </th>
+                <th>Exam Passed / Appearing</th>
+                <th>Board / University</th>
+                <th>Year</th>
+                <th>Percentage (%)</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Graduation</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Others</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <li>Program interested in : <hr class="li_hr5"></li>
+        <li>Campus Choice 
+            <label for="">GEU Dehradun</label>
+            <input type="radio" name="campus">
+            <label for="">GEHU Dehradun</label>
+            <input type="radio" name="campus">
+            <label>GEHU Bhimtal</label>
+            <input type="radio" name="campus">
+        </li>
+        <li>Entrance Exam appeared (CAT / MAT | JEE Mains) : <br><br>
+            Roll No. :<hr class="li_hr4"> <span>
+            Score/Percentile : <hr class="li_hr4"></span>
+        </li>
+        <li>How did you come to know about Graphic Era University ? (Tick Appropriate Box) <br>
+            <label for="">Digital Media</label>
+            <input type="checkbox" name="" id="">
+            <label for="">Print Media</label><input type="checkbox" name="" id="">
+            <label for="">Electronic Media</label><input type="checkbox" name="" id=""> <br>
+            Any other Source : <hr class="li_hr4"><span id="end">( Please specify the name )</span>
+        </li>
+    </ol>
+
+</body>
+</html>

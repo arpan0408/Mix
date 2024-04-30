@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Count Digit</title>
+    </head>
+    <script>
+        function digit()
+        {
+            var n = parseInt(prompt("Enter the value = "));
+            var m = parseInt(prompt("Enter the value = "));
+            let r = n+m,count=0;
+            alert("Sum("+n+"+"+m+") = "+r);
+            while(r>0)
+            {
+                r = Math.floor(r/10);
+                count++;
+            }
+            alert("Digits = "+count);
+        }digit();
+    </script>
+</html>

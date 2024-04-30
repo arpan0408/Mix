@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bollywood>
+    <m1>Iron Man</m1>
+    <actor>Robert Domney Jr.</actor>
+    <actress>Gwyneth Paltrow</actress>
+    <s_actor>Jeff Bridges</s_actor>
+    <s_actress>Leslie Bibb</s_actress>
+    <dir>Jon Favreau</dir>
+    <prod>Jon Favreau, Kevin Feige, Avi Arab</prod>
+
+    <m2>Thor</m2>
+    <actor>Chris Hemsworth</actor>
+    <actress>Natalie Portman</actress>
+    <s_actor>Tom Hiddleston</s_actor>
+    <s_actress>Jaimie Alexander</s_actress>
+    <dir>Kenneth Branagh</dir>
+    <prod>Kevin Feige</prod>
+
+    <m3>3 idiots</m3>
+    <actor>Aamir Khan</actor>
+    <actress>Kareena Kapoor</actress>
+    <s_actor>Boman Irani</s_actor>
+    <s_actor2>Omi Vaidya</s_actor2>
+    <dir>Rajkumar Hirani</dir>
+    <prod>Vidhu Vinod Chopra</prod>
+
+    <m4>Super 30</m4>
+    <actor>Hrithik Roshan</actor>
+    <actress>Mrunal Thakur</actress>
+    <s_actor>Nansish Singh Sandhu</s_actor>
+    <s_actor2>Pankaj Tripathi</s_actor2>
+    <dir>Vikas Bahl</dir>
+    <prod>Sajid Nadiadwala, Madhu Mantena Varma, Vikramaditya Motwane</prod>
+
+    <m5>The Nun</m5>
+    <actor>Demian Bichir</actor>
+    <actress>Taissa Farmiga</actress>
+    <s_actor>Jonas Bloquet</s_actor>
+    <s_actress>Sandra Teles</s_actress>
+    <dir>Corin Hardy</dir>
+    <prod>James Wan, Peter Safran</prod>
+</bollywood>

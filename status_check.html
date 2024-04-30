@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status</title>
+</head>
+<body bgcolor="aqua" >
+    <h3 align="center">Online/offline status Checking :</h3>
+    <p id="Status" align="center">Status : Checking...</p>
+
+    <script>
+        function update()
+        {
+            const status = document.getElementById("Status");
+            if(navigator.onLine)
+            {
+                status.textContent = "Status : Online";
+            }
+            else
+            {
+                status.textContent = "Status : Offline";
+            }
+        }
+        window.addEventListener('online',function(event){update();})
+        window.addEventListener('offline',function(event){update();})
+    </script>
+</body>
+</html>

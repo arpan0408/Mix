@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Selector</title>
+    <style>
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* element selector */
+        form {
+            height: 10em;
+            width: 20rem;
+            padding: 150px 450px;
+        }
+
+        input {
+            width: 10rem;
+            margin-left: 20%;
+        }
+
+        legend {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center; 
+        }
+
+        /* id selector */
+        #fs {
+            display: grid;
+            gap: 1em;
+            padding: 25px;
+        }
+
+        /* class selector */
+        .lab {
+            font-size: large;
+            text-align: center;
+        }
+
+        /* attribute selector */
+        input[type="submit"]{
+            color: green;
+        }
+
+        input[type="reset"]{
+            color: red;
+        }
+
+        /* group selector */
+        input[type="text"],input[type="email"]
+        {
+            color: rgb(47, 238, 56);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset id="fs">
+            <legend>Form</legend>
+            <label class="lab">Username</label>
+            <input type="text" name="" id="input">
+            <label class="lab">Email</label>
+            <input type="email" name="" id="">
+            <label class="lab">Password</label>
+            <input type="password" name="" id="">
+            <input type="submit" value="Save">
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <B1>
+        <name>Think Like A Monk</name>
+        <pub>HarperCollins Publishers</pub>
+        <y_pub>Sep 08 2020</y_pub>
+        <author>Jay Shetty</author>
+    </B1>
+
+    <B2>
+        <name>The power of Habit</name>
+        <pub>Random House</pub>
+        <y_pub>Feb 2012</y_pub>
+        <author>Charles Duhigg</author>
+    </B2>
+
+    <B3>
+        <name>The Miracle Morning</name>
+        <pub>Warner Business Books</pub>
+        <y_pub>1997</y_pub>
+        <author>Hal Elrod</author>
+    </B3>
+
+    <B4>
+        <name>Rich Dad Poor Dad</name>
+        <pub></pub>
+        <y_pub></y_pub>
+        <author>Robbert T. Kiyosaki</author>
+    </B4>
+
+    <B5>
+        <name>Deep Work</name>
+        <pub>Grand Central</pub>
+        <y_pub>2016</y_pub>
+        <author>Cal Newport</author>
+    </B5>
+</Books>

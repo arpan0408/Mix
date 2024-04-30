@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <style>
+        div {
+            height: 250px;
+            width: 250px;
+        }
+
+        #d1 {
+            margin: 0;
+            padding: 10px;
+            border: 1px dashed black;
+        }
+
+        #d2 {
+            margin-top: -273px;
+            margin-left: 290px;
+            padding: 10px;
+            border: 1px dotted black;
+        }
+
+        #d3 {
+            margin-top: -273px;
+            margin-left: 580px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="d1">
+        <form action="">
+            <label>Username</label>
+            <input type="text" required><br><br>
+            <label>Password</label>
+            <input type="password" required><br><br>&emsp;
+            <label>Name</label>
+            <input type="text" required><br><br>&emsp;
+            <label>Email</label>
+            <input type="email" required><br><br>
+            <input type="submit" value="Save">&emsp;
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+    <div id="d2">
+        <form>
+            <label>University</label>
+            <select required>
+                <option value="">Select</option>
+                <option value="geu">Geu</option>
+                <option value="gehu">Gehu</option>
+            </select><br><br>
+            <input type="submit" value="Add">&emsp;
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+    <div id="d3">
+        <form>
+            <label>University</label>
+            <select required>
+                <option value="">Select</option>
+                <option value="Geu">GEU</option>
+                <option value="Gehu">GEHU</option>
+            </select><br><br><br>
+            <label>Campus</label>
+            <select required>
+                <option value="">Select</option>
+                <option value="geu dun">Geu Dehradun</option>
+                <option value="gehu dun">Gehu Dehradun</option>
+                <option value="gems dun">Gems Dehradun</option>
+                <option value="gehu b">Gehu Bhimtal</option>
+                <option value="gehu h">Gehu Haldwani</option>
+            </select><br><br>
+            <input type="submit" value="Add">&emsp;
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+</body>
+</html>

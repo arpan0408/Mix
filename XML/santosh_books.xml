@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <B1>
+        <name>The Great Gatsby</name>
+        <pub>Pendown Press</pub>
+        <y_pub>1925</y_pub>
+        <author>F.Scott Fitzgerald</author>
+    </B1>
+
+    <B2>
+        <name>Pride and Prejudice</name>
+        <pub>Random House</pub>
+        <y_pub>1813</y_pub>
+        <author>Miguel de Cervantes</author>
+    </B2>
+
+    <B3>
+        <name>War and Peace</name>
+        <pub>Warner Business Books</pub>
+        <y_pub>1997</y_pub>
+        <author>Leo Tolstoy</author>
+    </B3>
+
+    <B4>
+        <name>Animal Farm</name>
+        <pub></pub>
+        <y_pub></y_pub>
+        <author>George Orwell</author>
+    </B4>
+
+    <B5>
+        <name>Emma</name>
+        <pub>CreateSpace Independent Publishing Platform</pub>
+        <y_pub>1815</y_pub>
+        <author>Jane Austen</author>
+    </B5>
+</Books>

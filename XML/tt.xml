@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+
+<n1>Harry Potter and the Philosopher's Stone</n1>
+<p1>Bloomsbury (UK), Scholastic (US)</p1>
+<yop1>1997</yop1>
+<a1>J K Rowling</a1>
+
+<n2>The Lord of the Rings</n2>
+<p2>George Allen and Unwin (UK), Houghton Mifflin(US)</p2>
+<yop2>1954-1955 (individual volumes)</yop2>
+<a2>J R R Tolkien</a2>
+
+<n3>To Kill a Mockingbird</n3>
+<p3>B Lippincott and Co</p3>
+<yop3>1960</yop3>
+<a3>Harper Lee </a3>
+
+<n4>The Catcher in the Rye</n4>
+<p4>Little, Brown and Company</p4>
+<yop4>1951</yop4>
+<a4>J D Salinger</a4>
+
+<n5>The Great Gatsby</n5>
+<p5>Charles Scribner's Sons</p5>
+<yop5>1925</yop5>
+<a5>F Scott Fitzgerald</a5>
+
+</books>

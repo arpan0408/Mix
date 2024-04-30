@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bollywood>
+    <m1>Dunki</m1>
+    <actor>Shah Rukh Khan</actor>
+    <actress>Taapsee Pannu</actress>
+    <s_actor>Anant Nag</s_actor>
+    <s_actress>Malavika Avinash</s_actress>
+    <dir>Rajkumar Hirani</dir>
+    <prod>Gauri Khan</prod>
+
+    <m2>Animal</m2>
+    <actor>Ranbir Kapoor</actor>
+    <actress>Rashmika Mandanna</actress>
+    <s_actor>Bobby Deol</s_actor>
+    <s_actress>Tripti Dimri</s_actress>
+    <dir>Sandeep Reddy Vanga</dir>
+    <prod>Bhanu Bhaskar</prod>
+
+    <m3>Jawan</m3>
+    <actor>Shah Rukh Khan</actor>
+    <actress>Deepika Padukone</actress>
+    <s_actor>Sanjay Dutt</s_actor>
+    <s_actress>Nayanthara</s_actress>
+    <dir>Atlee</dir>
+    <prod>Gauri Khan</prod>
+
+    <m4>Pathaan</m4>
+    <actor>Shah Rukh Khan</actor>
+    <actress>Deepika Padukone</actress>
+    <s_actor>John Abraham</s_actor>
+    <s_actor2>Salman Khan</s_actor2>
+    <dir>Siddharth Anand</dir>
+    <prod>Aditya Chopra</prod>
+
+    <m5>Housefull 3</m5>
+    <actor>Akshay Kumar</actor>
+    <actress>Jacqueline Fernandez</actress>
+    <s_actor>Abhishek Bachchan</s_actor>
+    <s_actress>lisa Haydon</s_actress>
+    <dir>Sajid</dir>
+    <prod>Sajid Nadiadwala</prod>
+</bollywood>
