@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validate</title>
+    <script>
+        function valid() {
+            var n = document.myform.name.value; 
+            var age = document.myform.age.value; 
+            var em = document.myform.email.value; 
+            let regex = /^[a-zA-Z]+$/;
+            // alert("Runs");
+            if(!regex.test(n))
+                alert("Please enter name (letters only)!");
+            if(!Number.isInteger(age)||age.length>3)
+                alert("Please enter numbers only[not valid]!");
+            var flg1=false,flg2=false;
+            for(var i=em.length-3;i>0;i--)
+            {
+                if(em[i]=="."&&flg2==flase)
+                    flg1==true;
+                if(em[i]=="@"&&flg1==true)
+                    flg2=true;
+            }
+            if(flg1==false||flg2==false)
+                alert("Enter valid email!");
+            
+        }
+    </script>
+</head>
+
+<body>
+    <form name="myform" onsubmit="valid()">
+        <label for="">Name</label>
+        <input type="text" name="name">
+        <br><br>
+        <label for="">Age</label>
+        <input type="text" name="age">
+        <br><br>
+        <label for="">Email</label>
+        <input type="text" name="email">
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

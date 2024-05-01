@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validate</title>
+    <script>
+        function valid() {
+            var n = document.myform.name.value,
+            sk1 = document.getElementById("skl1"),
+            sk2 = document.getElementById("skl2"),
+            sk3 = document.getElementById("skl3"),
+            sk4 = document.getElementById("skl4"),
+            sec = document.myform.sec.value,
+            course = document.myform.course.value;
+
+
+            if(n==null || n=="")
+                alert("Please enter the name!");
+            if(!sk1.checked && !sk2.checked && !sk3.checked && !sk4.checked)
+                alert("Please select at least 1 skill!");
+            if(sec==null || sec=="")
+                alert("Please select your section!");
+            if(course==null || course=="")
+                alert("Please select your course!");
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" method="post" name="myform" onsubmit="valid()">
+        <label for="">Name </label>
+        <input type="text" name="name" id="">
+        <br><br>
+        <label for="">Skill of PL :</label><br>
+        <input type="checkbox" id="skl1" value="c">C
+        <input type="checkbox" id="skl2" value="cpp">C++
+        <input type="checkbox" id="skl3" value="java">Java
+        <input type="checkbox" id="skl4" value="py">Python
+        <br><br>
+        <label for="">Section :</label><br>
+        <input type="radio" name="sec" value="a">A
+        <input type="radio" name="sec" value="b">B
+        <input type="radio" name="sec" value="c">C
+        <input type="radio" name="sec" value="c">D
+        <input type="radio" name="sec" value="c">E
+        <input type="radio" name="sec" value="c">F
+        <input type="radio" name="sec" value="c">G
+        <input type="radio" name="sec" value="c">H
+        <br><br>
+        <label for="">Course :</label>
+        <input type="radio" name="course" value="bca">BCA
+        <input type="radio" name="course" value="btech">B.Tech
+        <input type="radio" name="course" value="bsc">Bsc IT
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validate by JS</title>
+        <script>
+            function validate(){
+                var n = document.myform.name.value;
+                var a = document.myform.age.value;
+                var g = document.myform.gender.value;
+                
+                if(n=="" || n==null)
+                    return document.getElementById("return").innerHTML = "*Please enter the name!";
+                if(a.length>=3)
+                    alert("The age should not be exceed 3 ! ");
+                if(g=="none")
+                    alert("Please select the gender!");
+            }
+        </script>
+    </head>
+<body>
+    <form method="post" name="myform" onsubmit="validate()">
+        <label for="">Name </label>
+        <input type="text" name="name" id=""><br><br>
+        <label for="">Age</label>
+        <input type="number" name="age" id=""><br><br>
+        <label for="">Gender</label>
+        <select name="gender" id="">
+            <option value="none">Select</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="ot">Others</option>
+        </select><br><br>
+        <input type="submit" value="Check">
+        <input type="reset" value="Clean">
+        <h3 id="return" style="color: red;"></h3>
+    </form>
+</body>
+</html>
