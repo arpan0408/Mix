@@ -4,7 +4,7 @@
         <title>Img Resize</title>
     </head>
 <body>
-    <img src="../source_files/download.jpeg" height="150px" width="150px" id="mg"><br>
+    <img src="../source_files/download.jpeg" height="100px" width="100px" id="mg"><br>
     <input type="button" value="Min" onclick="mini()">
     <input type="button" value="Max" onclick="maxi()">
     <script>
@@ -13,13 +13,12 @@
             var a = document.getElementById("mg");
             // a.style.height="50px";
             // a.style.width="50px";
-            var size=parseInt(a.getAttribute('height'));
-            if(size>100)
+            var h=a.clientHeight;
+            var w=a.clientWidth;
+            if(h>100)
             {
-                alert("H = "+size);
-                size = String(size-50)+"px";
-                a.style.height=size;
-                a.style.width=size;
+                a.style.height=(h-50)+"px";
+                a.style.width=(w-50)+"px";
             }
         }
         function maxi()
@@ -27,13 +26,12 @@
             var a = document.getElementById("mg");
             // a.style.height="150px";
             // a.style.width="150px";
-            var size = parseInt(a.getAttribute('height'));
-            if(size<200)
+            var h = a.clientHeight;
+            var w = a.clientWidth;
+            if(h<200)
             {
-                alert("H2 = "+size);
-                size = String(size+50)+"px";
-                a.style.height=size;
-                a.style.width=size;
+                a.style.height=(h+50)+"px";
+                a.style.width=(w+50)+"px";
             }
         }
     </script>
