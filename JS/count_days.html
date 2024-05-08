@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Count days</title>
+</head>
+
+<body>
+    <script>
+        function count() {
+            var dob = prompt("Enter your DOB [DD:MM:YY] : ");
+            var a = dob.split(":");
+            var days = ((2024-parseInt(a[2]))*365)+((5-parseInt(a[1]))*30)+(parseInt(a[0])-6);
+            alert("You have lived approximately " + days+" days :)");
+        }
+        count();
+
+    </script>
+</body>
+
+</html>

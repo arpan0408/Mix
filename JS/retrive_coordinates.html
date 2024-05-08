@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Screen Coordinates</title>
+</head>
+<body>
+    <p>Click anywhere on the screen to see the coordinates:</p>
+    <p id="screenCoords"></p>
+    <p id="windowCoords"></p>
+    <p id="documentCoords"></p>
+
+    <script>
+        function displayCoords(event) {
+            const screenX = event.screenX;
+            const screenY = event.screenY;
+            const clientX = event.clientX;
+            const clientY = event.clientY;
+            const pageX = event.pageX;
+            const pageY = event.pageY;
+
+            document.getElementById("screenCoords").innerHTML = `Screen Coordinates: X: ${screenX}, Y: ${screenY}`;
+            document.getElementById("windowCoords").innerHTML = `Window Coordinates: X: ${clientX}, Y: ${clientY}`;
+            document.getElementById("documentCoords").innerHTML = `Document Coordinates: X: ${pageX}, Y: ${pageY}`;
+        }
+
+        document.addEventListener("click", displayCoords);
+    </script>
+</body>
+</html>

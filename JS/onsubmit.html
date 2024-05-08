@@ -9,7 +9,7 @@
                 var g = document.myform.gender.value;
                 
                 if(n=="" || n==null)
-                    return document.getElementById("return").innerHTML = "*Please enter the name!";
+                    document.getElementById("return").textContent = '*Please enter the name!';
                 if(a.length>=3)
                     alert("The age should not be exceed 3 ! ");
                 if(g=="none")
