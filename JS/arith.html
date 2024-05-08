@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aritmetic opertions</title>
+        <script>
+            function add()
+            {
+                // var a=document.n1.value;
+                // var b=document.n2.value;
+               alert("Run");
+               document.write("result");
+            
+            }
+            document.addEventListener("onclick",add());
+        </script>
+    </head>
+<body>
+    <label for="">Enter the value of a : </label>
+    <input type="number" name="n1"><br><br>
+    <label for="">Enter the value of b : </label>
+    <input type="number" name="n2">
+    <select name="opertions">
+        <option value="">Select</option>
+        <option value="add" onclick="add()">Addition</option>
+        <option value="sub" onclick="sub()">Subtract</option>
+        <option value="multi" onclick="multi()">Multiply</option>
+        <option value="divide" onclick="div()">Divide</option>
+    </select>
+    <!-- <input type="button" value="calculate" onclick="add()"> -->
+
+</body>
+</html>
