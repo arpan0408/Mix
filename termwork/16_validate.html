@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Varified user</title>
+        <script>
+            function valid()
+            {
+                var a = document.myform.name.value;
+                var b = document.myform.pass.value;
+                var n = "admin";
+                var p = "123";
+                if(a == ""||a == null)
+                    alert("Please enter the name!");
+                if(b == ""||b == null)
+                    alert("Please enter the password!");
+                if(a == n && b == p)
+                    alert("Login sucessfuly!");
+                else
+                    alert("Login unsucessful!");
+            }
+        </script>
+    </head>
+<body>
+    <form action="" name="myform">
+        <label>Username</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label>Password</label>
+        <input type="text" name="pass" id="pass">
+        <br><br>
+        <input type="button" value="Login" onclick="valid()">
+        <input type="button" value="Clear" onclick="document.getElementById('name').value='',document.getElementById('pass').value=''">
+    </form>
+</body>
+</html>

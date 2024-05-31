@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table id="ret">
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <select id="sel" onchange="return val()">
+        <option value="">Select</option>
+        <option value="Admin">Admin</option>
+        <option value="User">User</option>
+    </select>
+    <script>
+        function val()
+        {
+            var a = document.getElementById("sel").value;
+            document.getElementById("ret").innerHTML=a;
+        }
+    </script>
+</body>
+
+</html>

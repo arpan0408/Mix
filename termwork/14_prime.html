@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prime</title>
+</head>
+<script>
+    function prime() {
+        var a = document.getElementById("num").value;
+        for (var i = 2; i < a; i++) {
+            if (a % i == 0)
+                break;
+        }
+        if (i != a)
+            alert(a + " is not a prime number.")
+        else
+            alert(a + " is a prime number.")
+    }
+</script>
+
+<body>
+    Enter the value:
+    <input type="number" id="num">
+    <input type="button" value="Prime " onclick="prime()">
+</body>
+
+</html>

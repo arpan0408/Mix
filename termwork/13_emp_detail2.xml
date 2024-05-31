@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- using external dtd -->
+<!DOCTYPE employee SYSTEM "13_emp.dtd">
+<employee>
+    <name>XYZ</name>
+    <salary>50k</salary>
+</employee>

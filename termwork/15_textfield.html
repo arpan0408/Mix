@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TextField</title>
+    <script>
+        function copy(a) {
+            var b = document.getElementById('t2');
+
+            b.value = a.value;
+        }
+    </script>
+</head>
+
+<body>
+    Enter the text <input type="text" id="t1" onkeyup="copy(this)"><br><br>
+    Second TextField
+    <input type="text" id="t2">
+</body>
+
+</html>

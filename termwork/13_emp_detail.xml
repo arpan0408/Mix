@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- using internal DTD -->
+<!DOCTYPE employee [
+    <!ELEMENT employee (name,salary)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+]>
+<employee>
+    <name>XYZ</name>
+    <salary>50k</salary>
+</employee>

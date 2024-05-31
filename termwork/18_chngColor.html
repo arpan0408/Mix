@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Change</title>
+    </head>
+    <script>
+        function chng()
+        {
+            document.getElementById('para').style.color="black"
+        }
+        function chg(p)
+        {
+            p.style.color="aqua"
+            p.style.cursor="pointer"
+        }
+    </script>
+<body>
+<p id="para" onmouseout="chng()" onmouseover="chg(this)">Hello everyone!</p>
+</body>
+</html>

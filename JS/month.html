@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="button" value="Show" onclick="disp()">
+    <p id="para">Date/Time : </p>
+    <script>
+        function disp()
+        {
+            var d = new Date();
+            var dat = document.getElementById("para");
+            // alert("Month : "+(d.getMonth()));
+            document.getElementById("para").innerHTML = dat+d;
+        }
+    </script>
+</body>
+</html>
